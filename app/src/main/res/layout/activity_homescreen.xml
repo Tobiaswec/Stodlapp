@@ -30,8 +30,17 @@
                 android:background="@layout/round_button"
                 />
 
+            <ImageView
+                android:id="@+id/location"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="75dp"
+                android:src="@drawable/location"
 
 
+                />
             <Button
                 android:layout_width="125dp"
                 android:layout_height="125dp"
@@ -45,14 +54,7 @@
                 android:background="@layout/round_button"
                 />
 
-            <ImageView
-                android:id="@+id/location"
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="75dp"
-                android:src="@drawable/location" />
+
 
             <Button
                 android:layout_width="125dp"
