@@ -6,9 +6,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <solid android:color="#00FF00"></solid>
-    <size android:heigth="100dp"
-            android:weight="100dp">
-    </size>
+    <solid android:color="#42F480"></solid>
+
 
 </shape>
