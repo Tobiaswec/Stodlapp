@@ -31,7 +31,7 @@
                 android:id="@+id/Newsfeed"
                 android:layout_alignRight="@+id/button2"
                 android:layout_alignEnd="@+id/button2"
-                tools:layout_editor_absoluteY="4dp"
+                tools:layout_editor_absoluteY="16dp"
                 tools:layout_editor_absoluteX="8dp" />
 
             <ImageButton
@@ -43,10 +43,12 @@
                 android:layout_alignParentStart="true"
                 android:shape="oval"
                 android:src="@drawable/location"
-                tools:layout_editor_absoluteX="47dp"
+                tools:layout_editor_absoluteX="71dp"
                 tools:ignore="MissingConstraints"
                 android:layout_marginTop="40dp"
-                app:layout_constraintTop_toBottomOf="@+id/Newsfeed" />
+                app:layout_constraintTop_toBottomOf="@+id/Newsfeed"
+                android:background="@null"
+                />
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -57,48 +59,72 @@
                 android:id="@+id/kalender"
                 android:shape="oval"
                 android:src="@drawable/kalender"
-                tools:layout_editor_absoluteY="77dp"
-                tools:layout_editor_absoluteX="205dp" />
+                android:layout_marginTop="40dp"
+                app:layout_constraintTop_toBottomOf="@+id/Newsfeed"
+                android:layout_marginStart="24dp"
+                app:layout_constraintLeft_toRightOf="@+id/location"
+                android:layout_marginLeft="24dp"
+                android:background="@null"
+                />
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/googledrive"
                 android:id="@+id/google_drive"
-                tools:layout_editor_absoluteY="221dp"
-                tools:layout_editor_absoluteX="47dp" />
+                tools:layout_editor_absoluteX="71dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/location"
+                android:background="@null"
+                />
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/getraenke"
                 android:id="@+id/getraenke"
-                tools:layout_editor_absoluteY="221dp"
-                tools:layout_editor_absoluteX="205dp" />
+                android:layout_marginStart="24dp"
+                app:layout_constraintLeft_toRightOf="@+id/google_drive"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/kalender"
+                android:background="@null"
+                />
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/fahrgemeinschaft"
                 android:id="@+id/fahren"
-                tools:layout_editor_absoluteY="362dp"
-                tools:layout_editor_absoluteX="47dp" />
+                tools:layout_editor_absoluteX="71dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/google_drive"
+                android:background="@null"
+                />
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/webcam"
                 android:id="@+id/webcam"
-                tools:layout_editor_absoluteY="362dp"
-                tools:layout_editor_absoluteX="209dp" />
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/getraenke"
+                android:layout_marginStart="24dp"
+                app:layout_constraintLeft_toRightOf="@+id/fahren"
+                android:layout_marginLeft="24dp"
+                android:background="@null"
+                />
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/spotify"
                 android:id="@+id/spotify"
-                tools:layout_editor_absoluteY="499dp"
-                tools:layout_editor_absoluteX="47dp" />
+                tools:layout_editor_absoluteX="71dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/fahren"
+                android:background="@null"
+                />
 
 
         </android.support.constraint.ConstraintLayout>
